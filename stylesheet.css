@@ -105,7 +105,9 @@ header {
     background-color: rgba(3, 2, 0, 0.377);
     border-radius: 2px;
     padding: 10px;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
+   
+    
 }
 
 .link-descarga:hover {
@@ -146,7 +148,7 @@ h2 a {
 
 .caja-link-info {
     margin-left: 200px;
-    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .texto-principal-info {
@@ -201,4 +203,12 @@ input[type=reset] {
 input[type=submit]:hover {
     background-color: darkgreen;
     color: lightblue;
+}
+
+.texto-index{
+
+    max-width: 40%;
+    text-align:justify;
+    margin-left: 30px;
+    
 }
